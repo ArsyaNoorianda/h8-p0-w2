@@ -1,0 +1,137 @@
+1.
+
+Algoritma menghitung resultan gaya 
+1.Start
+2.tentukan variabel m sebagai wakil dari massa benda
+3.tentukan variabel a sebagai wakil percepatan benda 
+4.tentukan m = 600
+5.tentukan a =  2
+6.tentukan resultangaya = m x a 
+7.display hasil resultangaya
+8.End
+
+
+pseudocode menghitung resultan gaya 
+
+1.Start 
+2.store 'm' with value 600
+3.store 'a' with value 2
+4.store 'resultangaya' set with calculate 'm' * 'a'
+5.display 'resultangaya'
+
+2. 
+
+Algoritma menentukan suatu tahun kabisat atau bukan
+
+1. Start
+2. masukkan tahun 
+3. jika tahun modulo 4 = 0 and tahun modulo 100 ≠ 0
+   print tahun adalah tahun kabisat
+   then
+4. jika tahun modulo 4 = 0 
+   print tahun adalah tahun kabisat
+   and
+5. jika tahun modulo 100 = 0 
+   print tahun adalah tahun kabisat
+   and
+6. jika tahun modulo 400 = 0 
+   print tahun adalah tahun kabisat
+   else 
+8.  print bukan tahun kabisat
+9. Selesai
+
+
+Pseudocode menentukan suatu tahun kabisat atau bukan
+
+1. start
+2. store 'tahun' with any value
+3. if tahun % 4 = 0  and  if tahun % 100  ≠ 0
+   display ' tahun kabisat'
+   then
+3. if tahun % 4 = 0 display 'tahun kabisat'
+4. if tahun % 100 = 0 display 'tahun kabisat' 
+5. if tahun %400 = 0 display  'tahun kabisat'
+6. else 
+7. display ' bukan tahun kabisat'
+8. selesai
+
+
+
+
+3.
+
+Algoritma Laundry day
+
+
+
+1.Start
+2.Buat Variabel dengan 'Total_Cucian' dan 'Pakaian'
+3.Tentukan 'Total_Cucian' = 20 dan 'Pakaian' = 1
+4.Perulangan 'Pakaian' dimulai dari 1, Stop perulangan jika 'pakaian' <= 'total cucian',
+  dengan pertambahan 1
+5.Saat 'Pakaian' >= 'Total_Cucian' 
+6.Display " Nyalakan Mesin Cuci "
+7.end
+
+
+Pseudocode Laundry Day
+
+1. Start
+2. Read and Save 'Total_Cucian' 
+3. Read and Save 'Pakaian'
+3. Store 'Total_Cucian' with 20
+4. Store 'Pakaian' with 1
+5. for 'pakaian' = 1   , 'pakaian' <= 'total_cucian' stop looping with pertambahan 1
+6. if 'pakaian' >= 'total_cucian' display 'Jalankan mesin cuci'
+7. End
+
+
+
+
+4. 
+
+Algoritma Periksa Kuku
+
+1. Start
+2. buat variabel murid dengan permulaan 0 
+3. Buat Variabel Kuku agar bisa dimasukkan value apapun dengan fungsi input
+4. membuat kondisi selama murid kurang dari sama dengan 40 maka
+5. Display ' Masukkan Panjang kuku"
+6. input masukkan tulisan ke dalam 'kuku'
+7. bila 'kuku' = panjang display 'Hukum murid'
+8. selain itu jika 'kuku' =  pendek display ' kuku kamu rapih ya tehee'
+9. jika dimasukkan selain panjang atau pendek display ' masukkan panjang atau pendek '
+10. end 
+
+Pseudocode Periksa Kuku
+
+1. Start
+2. store murid with 0
+3. Store 'kuku' with any value
+4.  while murid <=40
+5. display ' masukkan panjang kuku'
+6. input value to ' kuku '
+7. if 'kuku' = 'panjang' 
+   display 'hukum murid'
+   add " murid by 1"
+8. else if 'kuku' = 'pendek' 
+   display ' kuku kamu rapih ya tehee'
+   add ' murid by 1' 
+9. else display ' masukkan panjang atau pendek' 
+10. end if
+11. end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
