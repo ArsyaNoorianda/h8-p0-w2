@@ -13,11 +13,11 @@ Algoritma menghitung resultan gaya
 
 pseudocode menghitung resultan gaya 
 
-1.Start 
-2.store 'm' with value 600
-3.store 'a' with value 2
-4.store 'resultangaya' set with calculate 'm' * 'a'
-5.display 'resultangaya'
+Start 
+store 'm' with value 600
+store 'a' with value 2
+store 'resultangaya' set with calculate 'm' * 'a'
+display 'resultangaya'
 
 2. 
 
@@ -43,17 +43,17 @@ Algoritma menentukan suatu tahun kabisat atau bukan
 
 Pseudocode menentukan suatu tahun kabisat atau bukan
 
-1. start
-2. store 'tahun' with any value
-3. if tahun % 4 = 0  and  if tahun % 100  ≠ 0
+ start
+ store 'tahun' with any value
+ if tahun % 4 = 0  and  if tahun % 100  ≠ 0
    display ' tahun kabisat'
    then
-3. if tahun % 4 = 0 display 'tahun kabisat'
-4. if tahun % 100 = 0 display 'tahun kabisat' 
-5. if tahun %400 = 0 display  'tahun kabisat'
-6. else 
-7. display ' bukan tahun kabisat'
-8. selesai
+ if tahun % 4 = 0 display 'tahun kabisat'
+ if tahun % 100 = 0 display 'tahun kabisat' 
+ if tahun %400 = 0 display  'tahun kabisat'
+ else 
+ display ' bukan tahun kabisat'
+ selesai
 
 
 
@@ -76,14 +76,14 @@ Algoritma Laundry day
 
 Pseudocode Laundry Day
 
-1. Start
-2. Read and Save 'Total_Cucian' 
-3. Read and Save 'Pakaian'
-3. Store 'Total_Cucian' with 20
-4. Store 'Pakaian' with 1
-5. for 'pakaian' = 1   , 'pakaian' <= 'total_cucian' stop looping with pertambahan 1
-6. if 'pakaian' >= 'total_cucian' display 'Jalankan mesin cuci'
-7. End
+ Start
+ Read and Save 'Total_Cucian' 
+ Read and Save 'Pakaian'
+ Store 'Total_Cucian' with 20
+ Store 'Pakaian' with 1
+ for 'pakaian' = 1   , 'pakaian' <= 'total_cucian' stop looping with pertambahan 1
+ if 'pakaian' >= 'total_cucian' display 'Jalankan mesin cuci'
+ End
 
 
 
@@ -105,21 +105,21 @@ Algoritma Periksa Kuku
 
 Pseudocode Periksa Kuku
 
-1. Start
-2. store murid with 0
-3. Store 'kuku' with any value
-4.  while murid <=40
-5. display ' masukkan panjang kuku'
-6. input value to ' kuku '
-7. if 'kuku' = 'panjang' 
+ Start
+ store murid with 0
+ Store 'kuku' with any value
+  while murid <=40
+ display ' masukkan panjang kuku'
+ input value to ' kuku '
+ if 'kuku' = 'panjang' 
    display 'hukum murid'
    add " murid by 1"
-8. else if 'kuku' = 'pendek' 
+ else if 'kuku' = 'pendek' 
    display ' kuku kamu rapih ya tehee'
    add ' murid by 1' 
-9. else display ' masukkan panjang atau pendek' 
-10. end if
-11. end 
+ else display ' masukkan panjang atau pendek' 
+ end if
+ end 
 
 
 
