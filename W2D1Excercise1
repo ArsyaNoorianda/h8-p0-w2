@@ -18,7 +18,7 @@ STORE 'm' with value 600
 STORE 'a' with value 2
 STORE 'resultangaya' set with calculate 'm' * 'a'
 DISPLAY 'resultangaya'
-
+END
 2. 
 
 Algoritma menentukan suatu tahun kabisat atau bukan
@@ -38,7 +38,7 @@ Algoritma menentukan suatu tahun kabisat atau bukan
    print tahun adalah tahun kabisat
    else 
 8.  print bukan tahun kabisat
-9. Selesai
+9. end
 
 
 Pseudocode menentukan suatu tahun kabisat atau bukan
@@ -53,7 +53,7 @@ Pseudocode menentukan suatu tahun kabisat atau bukan
  IF tahun MOD 400 = 0 DISPLAY  'tahun kabisat'
  ELSE
  DISPLAY ' bukan tahun kabisat'
- selesai
+ END
 
 
 
