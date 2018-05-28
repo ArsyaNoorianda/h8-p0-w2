@@ -17,7 +17,7 @@ START
 STORE 'm' with value 600
 STORE 'a' with value 2
 STORE 'resultangaya' set with calculate 'm' * 'a'
-DISPLAY 'resultangaya'
+  DO DISPLAY 'resultangaya'
 END
 2. 
 
@@ -46,11 +46,14 @@ Pseudocode menentukan suatu tahun kabisat atau bukan
  START
  STORE 'tahun' with any value
  IF tahun MOD 4 = 0  and  IF tahun MOD 100  ≠ 0
-   DISPLAY ' tahun kabisat'
-   then
- IF tahun MOD 4 = 0 DISPLAY 'tahun kabisat'
- IF tahun MOD 100 = 0 DISPLAY 'tahun kabisat' 
- IF tahun MOD 400 = 0 DISPLAY  'tahun kabisat'
+   DO DISPLAY ' tahun kabisat'
+ then
+ IF tahun MOD 4 = 0 
+   DO DISPLAY 'tahun kabisat'
+ IF tahun MOD 100 = 0 
+   DO DISPLAY 'tahun kabisat' 
+ IF tahun MOD 400 = 0 
+   DO DISPLAY  'tahun kabisat'
  ELSE
  DISPLAY ' bukan tahun kabisat'
  END
@@ -65,13 +68,13 @@ Algoritma Laundry day
 
 
 1.Start
-2.Buat Variabel dengan 'Total_Cucian' dan 'Pakaian'
-3.Tentukan 'Total_Cucian' = 20 dan 'Pakaian' = 1
-4.Perulangan 'Pakaian' dimulai dari 1, Stop perulangan jika 'pakaian' <= 'total cucian',
-  dengan pertambahan 1
-5.Saat 'Pakaian' >= 'Total_Cucian' 
-6.Display " Nyalakan Mesin Cuci "
-7.end
+2.Buat Variabel bernama 'Total_Cucian' 
+3.Buat Variabel bernama 'Pakaian'
+4.Tentukan 'Total_Cucian' = 20 
+5.Tentukan  'Pakaian' = 1
+4.bila pakaian sama dengan 1 , 'pakaian' kurang dari sama dengan 'total_Cucian' hentikan looping dengan pertambahan 1 
+5.bila 'pakaian' lebih dari sama dengan 'total_Cucian' tampilkan 'jalankan mesin cuci'
+6.End
 
 
 Pseudocode Laundry Day
@@ -81,8 +84,8 @@ Pseudocode Laundry Day
  READ and SAVE 'Pakaian'
  STORE 'Total_Cucian' with 20
  STORE 'Pakaian' with 1
- IF 'pakaian' = 1   , 'pakaian' <= 'total_cucian' stop looping with increment 1
- IF 'pakaian' >= 'total_cucian' DISPLAY 'Jalankan mesin cuci'
+   IF 'pakaian' = 1   , 'pakaian' <= 'total_cucian' stop looping with increment 1
+   IF 'pakaian' >= 'total_cucian' DISPLAY 'Jalankan mesin cuci'
  END
 
 
@@ -101,7 +104,7 @@ Algoritma Periksa Kuku
 7. bila 'kuku' = panjang display 'Hukum murid'
 8. selain itu jika 'kuku' =  pendek display ' kuku kamu rapih ya tehee'
 9. jika dimasukkan selain panjang atau pendek display ' masukkan panjang atau pendek '
-10. end 
+10.End 
 
 Pseudocode Periksa Kuku
 
