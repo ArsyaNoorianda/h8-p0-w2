@@ -47,7 +47,6 @@ Pseudocode menentukan suatu tahun kabisat atau bukan
  STORE 'tahun' with any value
  IF tahun MOD 4 EQUALS 0  and  IF tahun MOD 100  NOT EQUALS 0
    DO DISPLAY ' tahun kabisat'
- then
  IF tahun MOD 4 EQUALS 0 
    DO DISPLAY 'tahun kabisat'
  IF tahun MOD 100 EQUALS 0 
@@ -72,10 +71,13 @@ Algoritma Laundry day
 3.Buat Variabel bernama 'Pakaian'
 4.Tentukan 'Total_Cucian' = 20 
 5.Tentukan  'Pakaian' = 1
-4.bila pakaian sama dengan 1 , 'pakaian' kurang dari sama dengan 'total_Cucian' hentikan looping dengan pertambahan 1 
-5.bila 'pakaian' lebih dari sama dengan 'total_Cucian' 
-6.tampilkan 'jalankan mesin cuci'
-7.End
+6.Saat 'Pakaian' kurang dari sama dengan 'Total_Cucian'
+7.Tampilkan 'masukkan pakaian lagi
+8.jika 'Pakaian' sudah sama dengan 'Total_Cucian'
+9.Tampilkan 'Mesin Cuci Terhidupkan'
+10.END IF
+11.SET increment pertambahan dengan pertambahan 1 
+12.END WHILE
 
 
 Pseudocode Laundry Day
@@ -85,10 +87,13 @@ Pseudocode Laundry Day
  READ and SAVE 'Pakaian'
  STORE 'Total_Cucian' with 20
  STORE 'Pakaian' with 1
-   IF 'pakaian' EQUALS 1   , 'pakaian' LESS THAN EQUALS 'total_cucian' stop looping with increment 1
-   IF 'pakaian' MORE THAN EQUALS 'total_cucian'
-     DO DISPLAY 'Jalankan mesin cuci'
- END
+ WHILE 'Pakaian' LESS THAN EQUALS 'Total_Cucian'
+   DO DISPLAY 'masukkan pakaian lagi'
+   IF 'Pakaian EQUALS WITH 'Total_Cucian'
+     DO DISPLAY 'Mesin cuci Terhidupkan'
+   END IF 
+   SET 'Pakaian' = 'Pakaian' + 1
+ END WHILE
 
 
 
@@ -102,29 +107,27 @@ Algoritma Periksa Kuku
 3. Buat Variabel Kuku agar bisa dimasukkan value apapun dengan fungsi input
 4. membuat kondisi selama murid kurang dari sama dengan 40 maka
 5. Display ' Masukkan Panjang kuku"
-6. input masukkan tulisan ke dalam 'kuku'
-7. bila 'kuku' = panjang display 'Hukum murid'
-8. selain itu jika 'kuku' =  pendek display ' kuku kamu rapih ya tehee'
-9. jika dimasukkan selain panjang atau pendek display ' masukkan panjang atau pendek '
-10.End 
+6. bila 'kuku' = panjang display 'Hukum murid'
+7. selain itu jika 'kuku' =  pendek display ' kuku kamu rapih ya tehee'
+8. jika dimasukkan selain panjang atau pendek display ' masukkan panjang atau pendek '
+9.End 
 
 Pseudocode Periksa Kuku
 
- START
- STORE murid with 0
- STORE 'kuku' with any value
-  WHILE murid LESS THAN EQUALS 40
- DISPLAY ' masukkan panjang kuku'
- INPUT value to ' kuku '
- IF 'kuku' EQUALS 'panjang' 
-   DISPLAY 'hukum murid'
-   ADD " murid by 1"
- ELSE IF 'kuku' EQUALS 'pendek' 
-   DISPLAY ' kuku kamu rapih ya tehee'
-   ADD ' murid by 1' 
- ELSE DISPLAY ' masukkan panjang atau pendek' 
- END IF
- END
+START
+STORE murid with 0
+STORE 'kuku' with any value
+WHILE murid LESS THAN EQUALS 40
+  DISPLAY ' masukkan panjang kuku'
+IF 'kuku' EQUALS 'panjang' 
+  DISPLAY 'hukum murid'
+  ADD " murid by 1"
+ELSE IF 'kuku' EQUALS 'pendek' 
+  DISPLAY ' kuku kamu rapih ya tehee'
+  ADD ' murid by 1' 
+ELSE DISPLAY ' masukkan panjang atau pendek' 
+END IF
+END
 
 
 
